@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Dictionary App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An online web dictionary application where users can search for the meaning of English words based on the design of [FrontendMentor]('https://www.frontendmentor.io/')
 
-## Available Scripts
+## Description
+The application is using the the [Web Dictionary API]('https://dictionaryapi.dev/') to search and display the words user search for.
 
-In the project directory, you can run:
+It has the feature to switch between dark and light mode, and users can toggle between different font-styles within the app. 
+Dark mode is automatically toggled if the user has the preference for dark mode set in the browser. Design was provided bz FrontendMentor
 
-### `npm start`
+The application was built with react, it uses the Web Dictionary API to fetch data, it was styled with mobile-first and it is fully responsive.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies used:
+* React JS
+* React Context API
+* Mobile-first-design approach
+* APIs
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Light and dark mode
+![Light mode](https://firebasestorage.googleapis.com/v0/b/frontendportfolio-b0a92.appspot.com/o/dict%20(5).png?alt=media&token=36af5269-87ba-47e3-a008-51ff2e9729ab)
+![Dark mode](https://firebasestorage.googleapis.com/v0/b/frontendportfolio-b0a92.appspot.com/o/dict%20(4).png?alt=media&token=ad7c3664-18f3-4dc9-bd27-c92a9c1fd06e)
 
-### `npm run build`
+### No results
+![No result](https://firebasestorage.googleapis.com/v0/b/frontendportfolio-b0a92.appspot.com/o/dict%20(1).png?alt=media&token=fabb4125-9b25-414a-8c31-03b4e77a1c9d)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Different styles
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot with different fontstyle](https://firebasestorage.googleapis.com/v0/b/frontendportfolio-b0a92.appspot.com/o/dict%20(3).png?alt=media&token=2d1c36fd-4925-44aa-8628-c4c5549ce771)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot with another fonttyle](https://firebasestorage.googleapis.com/v0/b/frontendportfolio-b0a92.appspot.com/o/dict%20(2).png?alt=media&token=1a571f34-7790-4a2b-83d7-7d508d14b8f6)
